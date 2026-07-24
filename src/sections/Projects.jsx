@@ -13,6 +13,7 @@ import img5 from "../assets/img5.png";
 import photo1 from "../assets/photo1.png";
 import photo2 from "../assets/photo2.PNG";
 import photo3 from "../assets/photo3.png";
+import photo4 from "../assets/photo4.png";
 import photo5 from "../assets/photo5.png";
 
 const useIsMobile = (query = "(max-width:639px)") => {
