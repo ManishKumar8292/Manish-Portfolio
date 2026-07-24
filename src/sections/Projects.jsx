@@ -11,7 +11,7 @@ import img3 from "../assets/img3.png";
 import img4 from "../assets/img4.png";
 import img5 from "../assets/img5.png";
 import photo1 from "../assets/photo1.png";
-import photo2 from "../assets/photo2.PNG";
+import photo2 from "../assets/photo2.png";
 import photo3 from "../assets/photo3.png";
 import photo4 from "../assets/photo4.png";
 import photo5 from "../assets/photo5.png";
@@ -46,31 +46,31 @@ const Projects = () => {
       {
         title: "ShopNest",
         link: "https://shopnextbymanish.netlify.app/",
-        bgColor: "#4338CA",
+        bgColor: "#1E1B4B",
         image: isMobile ? img1 : photo1,
       },
       {
         title: "Todo App",
         link: "https://todoappbymanishkumar.netlify.app/",
-        bgColor: "#808080",
+        bgColor: "#111827",
         image: isMobile ? img5 : photo5,
       },
       {
         title: "TaskMate",
         link: "https://manishkumar8292.github.io/taskmateapp/",
-        bgColor: "#2A0134",
+        bgColor: "#1A103D",
         image: isMobile ? photo2 : img2,
       },
       {
         title: "Currency Converter",
         link: "https://manishkumar8292.github.io/Currencyconverter/",
-        bgColor: "#2E3625",
+        bgColor: "#0B1220",
         image: isMobile ? photo3 : img3,
       },
       {
-        title: "Whether App",
+        title: "Weather App",
         link: "https://manishkumar8292.github.io/whetherApp/",
-        bgColor: "#4343E7",
+        bgColor: "#1E1B4B",
         image: isMobile ? photo4 : img4,
       },
     ],
@@ -113,7 +113,7 @@ const Projects = () => {
         >
           {projects.map((project, idx) => (
             <div
-              className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ${activeIndex == idx ? "opacity-100 z-20" : "opacity-0 z-0 sm:z-10"}`}
+              className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ${activeIndex === idx ? "opacity-100 z-20" : "opacity-0 z-0 sm:z-10"}`}
               key={project.title}
               style={{ width: "85%", maxWidth: "1200px" }}
             >
@@ -146,7 +146,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover sm:object-fill drop-shadow-xl md:drop-shadow-2xl"
+                  className="w-full h-full object-content drop-shadow-xl md:drop-shadow-2xl"
                   style={{
                     position: "relative",
                     zIndex: 10,
@@ -160,7 +160,7 @@ const Projects = () => {
                   style={{
                     zIndex: 11,
                     background:
-                      "linear-gradient(180deg, rgba(0,0,0,0.12) 0% rgba(0,0,0,0) 40%)",
+                      "linear-gradient(180deg, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0) 40%)",
                   }}
                 ></div>
               </div>
