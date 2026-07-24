@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This website showcases my projects, skills, ex
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio:** https://your-portfolio-link.com
+🔗 **Portfolio:** (https://manishkumar9122-portfolio.netlify.app/)
 
 ---
 
