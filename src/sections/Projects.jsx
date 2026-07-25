@@ -50,10 +50,10 @@ const Projects = () => {
         image: isMobile ? img1 : photo1,
       },
       {
-        title: "Todo App",
-        link: "https://todoappbymanishkumar.netlify.app/",
+        title: "Zego Clone",
+        link: "https://zegoclone.netlify.app/",
         bgColor: "#111827",
-        image: isMobile ? img5 : photo5,
+        image: isMobile ? photo5 : img5,
       },
       {
         title: "TaskMate",
